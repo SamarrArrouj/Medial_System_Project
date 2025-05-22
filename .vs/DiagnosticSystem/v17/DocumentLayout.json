@@ -1,0 +1,441 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\controllers\\symptomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\controllers\\symptomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\services\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\services\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\models\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\models\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\services\\symptomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\services\\symptomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\models\\symptomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\models\\symptomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\services\\isymptomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\services\\isymptomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\entities\\symptom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\entities\\symptom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\migrations\\applicationdb\\20250521235822_addsymptomsmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\migrations\\applicationdb\\20250521235822_addsymptomsmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\entities\\visitorstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\entities\\visitorstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\models\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\models\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\migrations\\20250521225642_updateattributsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\migrations\\20250521225642_updateattributsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|c:\\users\\samar\\source\\repos\\diagnosticsystem\\diagnosticsystem\\migrations\\20250521224522_updateattributuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58626CAF-C884-41CB-A81C-26AB88C5E53A}|DiagnosticSystem\\DiagnosticSystem.csproj|solutionrelative:diagnosticsystem\\migrations\\20250521224522_updateattributuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SymptomService.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Services\\SymptomService.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Services\\SymptomService.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Services\\SymptomService.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Services\\SymptomService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAhwBUAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T00:00:35.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Services\\IAuthService.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T00:01:20.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Services\\IAppointmentService.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Services\\IAppointmentService.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Services\\IAppointmentService.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Services\\IAppointmentService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAArwA8AAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T21:58:34.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Controllers\\AppointmentController.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAgwHgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T21:57:35.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Services\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Services\\AppointmentService.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Services\\AppointmentService.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Services\\AppointmentService.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAYwKQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T21:58:18.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Entities\\User.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T10:48:02.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SymptomController.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Controllers\\SymptomController.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Controllers\\SymptomController.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Controllers\\SymptomController.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Controllers\\SymptomController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA+wB0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T23:59:58.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppointmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Models\\AppointmentDto.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Models\\AppointmentDto.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Models\\AppointmentDto.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Models\\AppointmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T04:05:23.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Services\\IUserService.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T00:01:23.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Services\\UserService.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T13:47:21.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ISymptomService.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Services\\ISymptomService.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Services\\ISymptomService.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Services\\ISymptomService.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Services\\ISymptomService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T00:00:20.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Entities\\Appointment.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Entities\\Appointment.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Entities\\Appointment.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Entities\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:52:36.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SymptomDto.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Models\\SymptomDto.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Models\\SymptomDto.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Models\\SymptomDto.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Models\\SymptomDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T00:05:03.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Symptom.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Entities\\Symptom.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Entities\\Symptom.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Entities\\Symptom.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Entities\\Symptom.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwCYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T23:41:09.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Services\\AuthService.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T23:42:51.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250521235822_AddSymptomsMigration.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Migrations\\ApplicationDb\\20250521235822_AddSymptomsMigration.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Migrations\\ApplicationDb\\20250521235822_AddSymptomsMigration.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Migrations\\ApplicationDb\\20250521235822_AddSymptomsMigration.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Migrations\\ApplicationDb\\20250521235822_AddSymptomsMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T23:58:22.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:23:50.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Models\\UserDto.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Models\\UserDto.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Models\\UserDto.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Models\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:10:07.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250521225642_UpdateAttributsUser.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Migrations\\20250521225642_UpdateAttributsUser.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Migrations\\20250521225642_UpdateAttributsUser.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Migrations\\20250521225642_UpdateAttributsUser.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Migrations\\20250521225642_UpdateAttributsUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:56:43.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250521224522_UpdateAttributUser.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Migrations\\20250521224522_UpdateAttributUser.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Migrations\\20250521224522_UpdateAttributUser.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Migrations\\20250521224522_UpdateAttributUser.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Migrations\\20250521224522_UpdateAttributUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:45:23.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\appsettings.json",
+              "RelativeToolTip": "DiagnosticSystem\\appsettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-07T21:13:18.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StatisticsController.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Controllers\\StatisticsController.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Controllers\\StatisticsController.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Controllers\\StatisticsController.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Controllers\\StatisticsController.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAYwJsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T02:16:30.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "VisitorStat.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Entities\\VisitorStat.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Entities\\VisitorStat.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Entities\\VisitorStat.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Entities\\VisitorStat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T02:17:21.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DoctorDto.cs",
+              "DocumentMoniker": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Models\\DoctorDto.cs",
+              "RelativeDocumentMoniker": "DiagnosticSystem\\Models\\DoctorDto.cs",
+              "ToolTip": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\Models\\DoctorDto.cs",
+              "RelativeToolTip": "DiagnosticSystem\\Models\\DoctorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T23:46:47.387Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

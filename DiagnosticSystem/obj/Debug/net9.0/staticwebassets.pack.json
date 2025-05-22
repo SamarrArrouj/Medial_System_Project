@@ -1,0 +1,385 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DiagnosticSystem.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DiagnosticSystem.5dt9jpzq1s.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\04154765-a6bd-4c61-8525-b74240bf901f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\04154765-a6bd-4c61-8525-b74240bf901f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\04bb9f9c-3d99-48a9-bfc9-373fd8dd7717",
+      "PackagePath": "staticwebassets\\uploads\\photos"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\0ab7a1cb-dd26-4ea2-8601-15685cd43efa.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\0ab7a1cb-dd26-4ea2-8601-15685cd43efa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\28103fae-7f06-4dee-9fbe-ed63ed5d5c70.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\28103fae-7f06-4dee-9fbe-ed63ed5d5c70.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\2c16a7e3-81c4-4221-987d-5d5eb499eead.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\2c16a7e3-81c4-4221-987d-5d5eb499eead.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\3f738e55-64ed-4e61-bb16-dc610e678cd2.png",
+      "PackagePath": "staticwebassets\\uploads\\photos\\3f738e55-64ed-4e61-bb16-dc610e678cd2.png"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\45bc9e0e-b174-4691-b0ce-691d66b3b16b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\45bc9e0e-b174-4691-b0ce-691d66b3b16b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\5ad5cf0a-d8ff-4b88-9344-81d925e92fa7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\5ad5cf0a-d8ff-4b88-9344-81d925e92fa7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\5e3f811b-6aea-4163-ac50-038816fea612.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\5e3f811b-6aea-4163-ac50-038816fea612.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\5efe09f2-3426-4e5b-9a71-d6b6f3202e15.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\5efe09f2-3426-4e5b-9a71-d6b6f3202e15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\61370232-0d5a-490c-9dbb-b725da79e955.png",
+      "PackagePath": "staticwebassets\\uploads\\photos\\61370232-0d5a-490c-9dbb-b725da79e955.png"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\69506246-d809-4509-871a-9430a301ed0d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\69506246-d809-4509-871a-9430a301ed0d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\70d3d902-3742-421c-a7e9-2729aad95d3a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\70d3d902-3742-421c-a7e9-2729aad95d3a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\7391d8e0-d8be-40b1-899d-3e9c174788b9.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\7391d8e0-d8be-40b1-899d-3e9c174788b9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\7ab0f0d1-9add-4e0b-88e6-06d615fde4ae.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\7ab0f0d1-9add-4e0b-88e6-06d615fde4ae.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\7c4d7445-c640-4796-b465-d38e2b86361d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\7c4d7445-c640-4796-b465-d38e2b86361d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\7fc56ec7-a1cd-4a4a-bcd8-1398fc58ec67.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\7fc56ec7-a1cd-4a4a-bcd8-1398fc58ec67.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\a95e8595-ecb3-4f5d-95f7-26c7966a8196.png",
+      "PackagePath": "staticwebassets\\uploads\\photos\\a95e8595-ecb3-4f5d-95f7-26c7966a8196.png"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\ae49e005-2deb-4ae5-b6fb-13b34954f570.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\ae49e005-2deb-4ae5-b6fb-13b34954f570.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\da99f777-2901-4f76-aa59-70ed87362752.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\da99f777-2901-4f76-aa59-70ed87362752.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\e27188b2-4747-441f-a030-c07c9594868d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\e27188b2-4747-441f-a030-c07c9594868d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\e2d095a4-2dfd-41b5-9782-3589ad3fda32",
+      "PackagePath": "staticwebassets\\uploads\\photos"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\e9fd7f17-38f0-49af-9165-3155d051c4cd.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\e9fd7f17-38f0-49af-9165-3155d051c4cd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\eaaae056-eee2-478e-b5c7-8717d960f5f9.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\eaaae056-eee2-478e-b5c7-8717d960f5f9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\f634004c-ac50-4a45-bbe7-790133eeecde.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\f634004c-ac50-4a45-bbe7-790133eeecde.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samar\\source\\repos\\DiagnosticSystem\\DiagnosticSystem\\wwwroot\\uploads\\photos\\fbc2832e-4b88-4f05-9920-4db8b7fee18e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\fbc2832e-4b88-4f05-9920-4db8b7fee18e.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.DiagnosticSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.DiagnosticSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.DiagnosticSystem.props",
+      "PackagePath": "build\\DiagnosticSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.DiagnosticSystem.props",
+      "PackagePath": "buildMultiTargeting\\DiagnosticSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.DiagnosticSystem.props",
+      "PackagePath": "buildTransitive\\DiagnosticSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
