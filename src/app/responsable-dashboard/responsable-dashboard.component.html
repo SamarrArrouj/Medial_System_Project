@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsable Santé Dashboard</title>
+  <link rel="stylesheet" href="responsable-dashboard.component.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="logo">🩺</div>
+      <nav>
+        <a class="active">🏠</a>
+        <a >📅</a>
+        <a >💬</a>
+        <a >⚙️</a>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <header class="header">
+        <input type="text" class="search" placeholder="Rechercher un rendez-vous">
+        
+        <div class="header-actions">
+          <button class="logout-btn" (click)="logout()">🚪 Logout</button>
+          
+          <div class="profile">
+            <span class="notification">🔔</span>
+            <img src="https://i.pravatar.cc/40" alt="Avatar" class="avatar">
+          </div>
+        </div>
+      </header>
+      
+
+      <section class="welcome">
+        <div class="text">
+          <h2>Good evening, <span>Health Supervisor,</span></h2>
+          <p>Please take a moment to review the pending appointment requests below.<br>
+            Your approval or rejection will help us ensure a smooth and efficient healthcare service for our patients.</p>
+        </div>
+        <div class="emoji">
+          <img src="respo.jpg" class="doctor-img" style="height:100px;">
+        </div>
+      </section>
+
+      <section class="stats">
+        <div class="card purple">
+            <h4>Total des rendez-vous</h4>
+            <p>Appointments : {{ nbAppointments }}</p>
+          </div>
+          
+        <div class="card red">
+          <h4>Rendez-vous approuvés</h4>
+          <p>Approved appointment : {{ approvedAppointments }}</p>
+        </div>
+        <div class="card">
+          <h4>Rendez-vous annulés</h4>
+          <p>Canceled appointment : {{canceledAppointments }}</p>
+        </div>
+      </section>
+
+      <section class="appointments">
+        <h3>Rendez-vous en attente</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Nom</th>
+              <th>Date</th>
+              <th>Heure</th>
+              <th>Docteur</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let appointment of appointments">
+                <td>{{ appointment.patient?.username }}</td>
+                <td>{{ appointment.appointmentDate | date: 'dd/MM/yyyy' }}</td> 
+                <td>{{ appointment.appointmentDate | date: 'HH:mm' }}</td>  
+                <td>{{ appointment.doctor?.username }}</td>
+
+
+           
+                <td>
+                    <ng-container [ngSwitch]="appointment.status">
+                      <div *ngSwitchCase="'approved'" class="approved-msg">✅ Approuvé</div>
+                      <div *ngSwitchCase="'canceled'" class="canceled-msg">❌ Annulé</div>
+                      <div *ngSwitchDefault>
+                        <button class="btn approve" (click)="approveAppointment(appointment.id)">✅ Approuver</button>
+                        <button class="btn reject" (click)="cancelAppointment(appointment.id)">❌ Annuler</button>
+                      </div>
+                    </ng-container>
+                  </td>
+                  
+                  
+              </tr>
+              
+      
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+
+
+</body>
+</html>

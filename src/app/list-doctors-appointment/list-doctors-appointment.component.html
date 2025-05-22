@@ -1,0 +1,68 @@
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="logo">DiagnoTech</div>
+  <ul class="nav-links">
+    <li><a href="home">HOME</a></li>
+    <li><a href="about-us">ABOUT</a></li>
+    <li><a href="#">SERVICES</a></li>
+    <li><a href="#">FAQs</a></li>
+    <li><a href="contact">CONTACT</a></li>
+  </ul>
+
+  <div class="auth-links">
+    <a *ngIf="!isAuthenticated" href="#" class="login">Login</a>
+    <a *ngIf="!isAuthenticated" href="register" class="signup">Sign Up</a>
+    <button
+      *ngIf="isAuthenticated"
+      (click)="logout()"
+      class="logout-button"
+    >
+      Logout
+    </button>
+  </div>
+</nav>
+
+<div class="background-wrapper">
+  <img src="back1.jpg" class="bg-image" alt="background" />
+
+  <div class="container">
+    <h1>List of Doctors</h1>
+    <br />
+
+    <!-- Recherche + Filtre spécialité -->
+    <div class="search-filter">
+      <input
+        type="text"
+        placeholder="Find a doctor..."
+        [(ngModel)]="searchTerm"
+        (ngModelChange)="applyFilters()"
+      />
+
+      <select
+        [(ngModel)]="selectedSpecialty"
+        (ngModelChange)="applyFilters()"
+      >
+        <option value="">All Specialities</option>
+        <option *ngFor="let spec of specialties" [value]="spec">
+          {{ spec }}
+        </option>
+      </select>
+    </div>
+
+    <div class="doctors-list">
+      <div class="doctor-card" *ngFor="let doc of filteredDoctors">
+        <img
+          *ngIf="doc.photoUrl"
+          [src]="'https://localhost:7076' + doc.photoUrl"
+          alt="Doctor Photo"
+          class="doctor-photo"
+        />
+        <h2>{{ doc.username }}</h2>
+        <p><strong>Speciality:</strong> {{ doc.specialty }}</p>
+        <button class="book-btn" [routerLink]="['/book-appointment', doc.id]">
+          Book Appointment
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

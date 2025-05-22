@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - DiagnoTech</title>
+    <link rel="stylesheet" href="list-doctors.component.css">
+</head>
+<body>
+<div class="doctors-list">
+    <h2>Liste des Médecins</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Speciality</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let doc of doctors">
+                <td>{{ doc.username }}</td>
+                <td>{{ doc.email }}</td>
+                <td>{{ doc.specialty }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="filter-bar">
+    
+    </div>
+  
+    <table class="user-table">
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>Sexe</th>
+          <th>Email</th>
+         
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let patient of patients">
+          <td>{{ patient.username }}</td>
+          <td>{{ patient.sexe }}</td>
+          <td>{{ patient.email }}</td>
+         
+          <td>
+          
+          </td>
+          
+        </tr>
+      </tbody>
+      
+    </table>
+  </div>
+  

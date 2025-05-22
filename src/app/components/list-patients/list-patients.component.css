@@ -1,0 +1,155 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 30px;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+  transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.filter-bar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.add-user {
+  margin-left: auto;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #4f46e5, #3b82f6);
+  color: white;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.add-user a {
+  text-decoration: none;
+  color: white;
+}
+
+.add-user:hover {
+  background: linear-gradient(to right, #4338ca, #2563eb);
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.user-table thead {
+  background: #f3f4f6;
+}
+
+.user-table th {
+  text-align: left;
+  padding: 16px;
+  font-size: 15px;
+  color: #1f2937;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.user-table td {
+  padding: 16px;
+  border-bottom: 1px solid #e5e7eb;
+  color: #374151;
+  font-size: 15px;
+}
+
+.user-table tbody tr:hover {
+  background-color: #f9fafb;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon-circle {
+  width: 36px;
+  height: 36px;
+  background: #dbeafe;
+  color: #2563eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  font-size: 18px;
+}
+
+.name-email .name {
+  font-weight: 600;
+}
+
+.name-email .email {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.email-center {
+  font-size: 14px;
+  color: #374151;
+}
+
+.position {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.position img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.badge {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.badge.active {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.delete-btn {
+  background-color: #ef4444;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #dc2626;
+}

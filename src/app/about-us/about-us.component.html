@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - DiagnoTech</title>
+    <link rel="stylesheet" href="about-us.component.css">
+</head>
+<body>
+     <!-- Navbar -->
+     <nav class="navbar">
+        <div class="logo">DiagnoTech</div>
+        <ul class="nav-links">
+            <li><a href="home">HOME</a></li>
+            <li><a href="about-us">ABOUT</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="contact">CONTACT</a></li>
+        </ul>
+      
+        <div class="auth-links">
+            <a *ngIf="!isAuthenticated" href="#" class="login">Login</a>
+            <a *ngIf="!isAuthenticated" href="register" class="signup">Sign Up</a>
+            <button 
+            *ngIf="isAuthenticated" 
+            (click)="logout()" 
+            class="logout-button"
+          >
+            Logout
+          </button>  
+        </div>
+      </nav>
+
+<section class="hero">
+        <div class="hero-text">
+            <h1>Get Better Care For Your Health</h1>
+            <p>Welcome to our AI-powered medical diagnostic center <span class="highlight">DiagnoTech</span>.<br>
+            Our goal is to help users better understand their symptoms and receive relevant health recommendations.</p>
+        </div>
+            <img src="system.png" alt="Medical Technology">
+    </section>
+
+
+
+    <section class="about">
+        <div class="about-content">
+            <h2>Who Are We?</h2>
+            <p>We are a team passionate about technology and healthcare, committed to providing an accessible and reliable tool 
+               for both patients and medical professionals. Our system is built on advanced algorithms and an extensive medical 
+               database to analyze symptoms and suggest possible diagnoses.</p>
+        </div>
+        <img src="team.png" alt="Medical Technology">
+    </section>
+
+    <section class="why-choose">
+        <h2>Why choose us?</h2>
+        <ul>
+            <li>✅ <strong>Reliability</strong> → Developed with the support of healthcare professionals and based on validated medical data.</li>
+            <li>✅ <strong>Accessibility</strong> → Available 24/7 for everyone, everywhere.</li>
+            <li>✅ <strong>Privacy</strong> → Your health data is protected and never shared without your consent.</li>
+        </ul>
+    </section>
+
+    <section class="mission">
+        <div class="mission-image">
+            <img src="mission.png" alt="Mission">
+        <h2>Our mission</h2>
+        <p>To facilitate access to an initial symptom evaluation and promote better medical care through modern technology.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <p>For any questions or suggestions, feel free to</p>
+    <a href="contact" class="contact-btn">CONTACT US!</a>
+
+    </section>
+
+
+</body>
+</html>

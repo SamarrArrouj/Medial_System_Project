@@ -1,0 +1,38 @@
+<section class="appointments">
+    <h3>Rendez-vous en attente</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Nom</th>
+          <th>Date</th>
+          <th>Heure</th>
+          <th>Docteur</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let appointment of appointments">
+            <td>{{ appointment.patient?.username }}</td>
+            <td>{{ appointment.appointmentDate | date: 'dd/MM/yyyy' }}</td> 
+            <td>{{ appointment.appointmentDate | date: 'HH:mm' }}</td>  
+            <td>{{ appointment.doctor?.username }}</td>
+
+
+       
+            <td>
+                <ng-container [ngSwitch]="appointment.status">
+                  <div *ngSwitchCase="'approved'" class="approved-msg">✅ Approuvé</div>
+                  <div *ngSwitchCase="'canceled'" class="canceled-msg">❌ Annulé</div>
+                  <div *ngSwitchDefault>
+                    <button class="btn approve" (click)="approveAppointment(appointment.id)">✅ Approuver</button>
+                    <button class="btn reject" (click)="cancelAppointment(appointment.id)">❌ Annuler</button>
+                  </div>
+                </ng-container>
+              </td>
+              
+              
+          </tr>
+          
+  
+      </tbody>
+    </table>

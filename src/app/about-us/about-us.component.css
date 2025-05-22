@@ -1,0 +1,325 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F3F7FC;
+    text-align: center;
+    padding-top: 70px;
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 97%;
+    height: 90px;
+    padding: 10px 30px;
+    background-color: #eaf7ff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .navbar .logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #2563eb;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #2563eb;
+  }
+  
+  .auth-links {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  
+  }
+  /* Boutons d'authentification */
+  .auth-links a {
+   padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .login {
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .signup {
+    background-color: #2563eb;
+    color: white;
+    transition: 0.3s;
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  
+  .signup:hover {
+    background-color: #1e40af;
+  }
+
+  
+.logout-button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .logout-button:hover {
+    background-color: #1e40af;
+  }
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F3F7FC;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 30px auto;
+    width: 80%;
+    margin-top: 120px; 
+}
+
+.hero-text {
+    max-width: 800px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.hero h1 {
+    color: #2E67F8;
+    font-size:35px;
+    font-weight: bold;
+}
+
+.hero img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.highlight {
+    color: #2E67F8;
+    font-weight: bold;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.about-content {
+    max-width: 900px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.about h2 {
+    color: #2E67F8;
+    text-align: left;
+    font-size: 35px;
+}
+
+.about img {
+    width: 250px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+/* Why Choose Us Section */
+.why-choose {
+    background-color: #F3F7FC;
+    padding: 30px;
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.why-choose h2 {
+    color: #2E67F8;
+    text-align: left;
+    font-size: 35px;
+}
+
+.why-choose ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.why-choose li {
+    font-size:25px;
+    padding: 8px 0;
+}
+
+/* Mission Section */
+.mission {
+    padding: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.mission-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission h2 {
+    color: #2E67F8;
+    font-size: 35px;
+}
+
+.mission img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #2E67F8;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.contact p {
+    font-size: 25px;
+}
+
+.contact-btn {
+    background-color: white;
+    color: #2E67F8;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.contact-btn:hover {
+    background-color: #F3F7FC;
+}
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 10px;
+    }
+
+    .auth-links {
+        margin-top: 10px;
+    }
+}
+
+/* Responsive Hero Section */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero img {
+        width: 80%;
+        max-width: 300px;
+        margin-top: 20px;
+    }
+}
+
+/* Responsive About Section */
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content {
+        max-width: 100%;
+    }
+
+    .about img {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 80%;
+        max-width: 300px;
+    }
+}
+
+/* Responsive Why Choose Us */
+@media (max-width: 768px) {
+    .why-choose {
+        width: 95%;
+        text-align: center;
+    }
+
+    .why-choose h2 {
+        text-align: center;
+    }
+
+    .why-choose ul {
+        text-align: left;
+        padding-left: 20px;
+    }
+}
+
+/* Responsive Mission Section */
+@media (max-width: 768px) {
+    .mission-image img {
+        width: 80px;
+    }
+}
+
+/* Responsive Contact Section */
+@media (max-width: 768px) {
+    .contact p {
+        font-size: 16px;
+    }
+
+    .contact-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

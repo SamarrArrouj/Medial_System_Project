@@ -1,0 +1,79 @@
+<div class="main-content">
+    <div class="topbar">
+        <input type="text" placeholder="Search..." class="search" />
+        <button class="logout-btn" (click)="logout()">
+          <i class="fa-solid fa-right-from-bracket"></i> Logout
+        </button>
+      </div>
+      
+      
+
+      <section class="schedule">
+        <div>
+          <h1>Good Morning, <br><br><span>Dr. Patrick Kim</span></h1>
+          <p class="schedule-title">Your schedule today</p>
+          <div class="schedule-items">
+            <div class="item">🧑‍⚕️ Patients : {{ nbPatients }}</div>
+            <div class="item">🧬 Médecins : {{ nbMedecins }}</div>
+          </div>
+          
+        <img src="imgDash.png" alt="Schedule" class="schedule-img" />
+        </div>
+      </section>
+
+      <section class="cards">
+        <div class="card green">890<br><span>New Patients</span></div>
+        <div class="card blue">360<br><span>OPD Patients</span></div>
+        <div class="card red">980<br><span>Lab Tests</span></div>
+        <div class="card yellow">$98,000<br><span>Total Earnings</span></div>
+      </section>
+
+      <section class="cards">
+        <div class="card">639<br><span>Appointments</span></div>
+        <div class="card">{{nbMedecins}}<br><span>Doctors</span></div>
+        <div class="card">{{nbPatients}}<br><span>Patients</span></div>
+      </section>
+    
+      <br>
+      <section class="card">
+      <section class="chart-section">
+        <h2>Doctor vs Patient Statistics</h2>
+        <br>
+        <canvas id="doctorPatientChart" ></canvas>
+
+      </section>
+    </section>
+<br><br><br>
+<section class="chart-section">
+    <div class="chart-custom-layout">
+      
+      <!-- Graphique des médecins -->
+     <section class="card">
+      <div class="chart-box">
+        <h3>Répartition des Médecins par Genre</h3>
+        <canvas id="doctorGenderChart"></canvas>
+      </div>
+     </section>
+  
+      <!-- Graphique des patients -->
+      <section class="card">
+      <div class="chart-box">
+        <h3>Répartition des Patients par Genre</h3>
+        <canvas id="PatientGenderChart"></canvas>
+      </div>
+      </section>
+
+      <section class="card">
+      <div class="chart-box">
+        <h3>Nombre de Visiteurs par Jour</h3>
+        <canvas id="visitorChart"></canvas>
+      </div>
+      </section>
+
+    </div>
+  </section>
+  
+</div> 
+  
+      
+   

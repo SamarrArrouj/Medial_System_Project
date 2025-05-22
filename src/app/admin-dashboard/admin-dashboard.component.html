@@ -1,0 +1,42 @@
+<div class="container">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="profile">
+      <img src="https://via.placeholder.com/50" alt="Profile" />
+      <div>
+        <p class="name">Nick Gonzalez</p>
+        <p class="role">Dept Admin</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a [routerLink]="['/dashboard']" routerLinkActive="active"><i class="fa-solid fa-hospital"></i> Hospital Dashboard</a>
+
+      <div class="nav-group">
+        <a><i class="fa-solid fa-user-doctor"></i> Doctors <i class="fa-solid fa-caret-down"></i></a>
+        <div class="sub-menu">
+          <!-- Liens relatifs (plus correct dans ce contexte) -->
+          <a [routerLink]="['/dashboard/add-doctor']" routerLinkActive="active" mat-raised-button (click)="openAddDoctorDialog()">
+            <i class="fa-solid fa-user-plus"></i> Add Doctor
+          </a>
+          <a routerLink="list-doctors-admin" routerLinkActive="active">
+            <i class="fa-solid fa-list"></i> List Doctors
+          </a>
+        </div>
+      </div>
+
+      <div class="nav-group">
+        <a href="#"><i class="fa-solid fa-user-injured"></i> Patients <i class="fa-solid fa-caret-down"></i></a>
+        <div class="sub-menu">
+          <a routerLink="list-patients" routerLinkActive="active"> List Patients</a>
+        </div>
+      </div>
+
+     
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main">
+    <router-outlet></router-outlet>
+  </main>
+</div>

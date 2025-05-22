@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Doctor Dashboard</title>
+  <link rel="stylesheet" href="doctor-dashboard.component.css"/>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="logo">🩺</div>
+      <nav>
+        <a href="#" class="active">🏠</a>
+        <a href="#">📅</a>
+        <a href="#">💬</a>
+        <a href="#">⚙️</a>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <header class="header">
+        <input type="text" class="search" placeholder="Search Appointment">
+        <div class="profile">
+          <span class="notification">🔔</span>
+          <button class="logout-btn" (click)="logout()">Logout</button>
+          <img src="https://i.pravatar.cc/40" alt="Avatar" class="avatar">
+      
+        </div>  
+      </header>
+
+      <section class="welcome">
+        <div class="text">
+          <h2>Good morning, <span>doctor</span></h2>
+          <p>Whatever you do, do it with determination. You have one life to live, do your work with passion and give your best.</p>
+        </div>
+        <div class="emoji"><img src="doctor-dash.png" class="doctor-img"></div>
+      </section>
+
+      <section class="stats">
+        <div class="card purple">
+          <h4>Total Appointments</h4>
+          <p>{{ totalAppointmentsCount }}</p>
+        </div>
+        
+        <div class="card green">
+          <h4>Approved Appointments</h4>
+          <p>{{ approvedAppointmentsCount }}</p>
+        </div>
+        <div class="card">
+          <h4>Last Day Patients Result</h4>
+          <div class="chart">
+            <div class="circle">
+              <span>214 Patients</span>
+            </div>
+            <div class="legend">
+              <span class="dot purple-dot"></span> Consultation
+              <span class="dot red-dot"></span> Absence
+              <span class="dot blue-dot"></span> Return
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="appointments">
+        <h3>Appointments</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Date</th>
+              <th>Time</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let a of appointments">
+              <td>{{ a.patient?.username }}</td>
+              <td>{{ a.appointmentDate | date: 'dd/MM/yyyy' }}</td>
+              <td>{{ a.appointmentDate | date: 'HH:mm' }}</td>
+              <td>
+                <span 
+                  class="status" 
+                  [ngClass]="{
+                    'confirmed': a.status === 'approved',
+                    'cancelled': a.status === 'canceled'
+                  }">
+                  {{ a.status === 'approved' ? '✔' : '✖' }}
+                </span>
+              </td>
+            </tr>
+            <tr *ngIf="appointments.length === 0">
+              <td colspan="4">Aucun rendez-vous approuvé</td>
+            </tr>
+          </tbody>
+          
+          
+          
+        </table>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - DiagnoTech</title>
+    <link rel="stylesheet" href="register.component.css" />
+  </head>
+  <body>
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="logo">DiagnoTech</div>
+        <ul class="nav-links">
+            <li><a href="home">HOME</a></li>
+            <li><a href="about-us">ABOUT</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="contact">CONTACT</a></li>
+        </ul>
+        <div class="auth-links">
+            <a href="#" class="login">Login</a>
+            <a href="register" class="signup">Sign Up</a>
+        </div>
+    </nav>
+    <div class="container">
+        <!-- Partie gauche -->
+        <div class="left-section">
+            <img src="doctors.png" alt="Doctors" class="doctors-image">
+        </div>
+
+        <!-- Partie droite -->
+        <div class="right-section">
+            <div class="login-box">
+                <form (ngSubmit)="onRegister()">
+                    <div class="input-group">
+                        <label>Username</label>
+                        <input type="text" [(ngModel)]="user.username" name="username" required>
+                    </div>
+                    <br>
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="email" [(ngModel)]="user.email" name="email" required>
+                    </div>
+                    <br>
+                    
+                    <div class="input-group">
+                        <label>password</label>
+                        <div class="password-wrapper">
+                            <input type="password" [(ngModel)]="user.password" name="password" required>
+                            <span class="eye-icon"></span>
+                        </div>
+                    </div>
+                    
+             <br>
+                    <button type="submit" class="register">Register</button>
+                    <br>
+                
+                    <div class="google-button-container">
+                        <button class="register-button">
+                            Create account with Google <img src="Google.png" alt="Google Logo">
+                        </button>
+                
+                    </div>
+                    <br>
+                    
+                    <p class="register-text">Already have an account? <a href="#">Login</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

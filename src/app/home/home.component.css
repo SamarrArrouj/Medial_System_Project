@@ -1,0 +1,278 @@
+body {
+    background-color: #f0f7ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 100px; 
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 97%;
+    height: 90px;
+    padding: 10px 30px;
+    background-color: #eaf7ff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .navbar .logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #2563eb;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #2563eb;
+  }
+  
+  .auth-links {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  
+  }
+  /* Boutons d'authentification */
+  .auth-links a {
+   padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .login {
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .signup {
+    background-color: #2563eb;
+    color: white;
+    transition: 0.3s;
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  
+  .signup:hover {
+    background-color: #1e40af;
+  }
+  .profile-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px 10%;
+    gap: 60px;
+    justify-content: center;
+    
+  
+}
+
+.hero-text {
+    max-width: 800px;
+    flex: 1;
+    margin-left: 30px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color: #222;
+}
+
+.highlight {
+    color: #2563eb;
+    font-size: 40px
+}
+
+.hero p {
+    color: #555;
+    font-size: 28px;
+
+}
+
+.btn {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 15px;
+    margin-left: 30px;
+    border-radius: 25px;
+    font-size: 22px; 
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #1e40af;
+}
+
+.hero-image {
+    flex: 1; 
+    max-width: 500px;
+    margin-left:50px;
+}
+
+/* Services Section */
+.services {
+    text-align: center;
+    color:#292B84 ;
+    padding: 50px 10%;
+    font-size: 25px;
+}
+
+
+.services-container {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; /* Permet aux cartes de s’adapter sur petits écrans */
+    gap: 15px; /* Espace entre les cartes */
+}
+
+/* Animation des cartes */
+.service-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: #3399FF; 
+    color: white;
+}
+
+.service-card a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 10px;
+}
+
+
+.service-card img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.service-card h3 {
+    font-size: 20px;
+    color: #292B84;
+}
+
+
+.logout-button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.logout-button:hover {
+    background-color: #1e40af;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 15px;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* ======= RESPONSIVE DESIGN ======= */
+@media (max-width: 1024px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero-image {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Navbar */
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background: white;
+        width: 100%;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .service-card {
+        width: 90%;
+    }
+}

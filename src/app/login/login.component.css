@@ -1,0 +1,294 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+   
+}
+
+body {
+    height: 100vh;
+    background-color: #eaf7ff;
+    overflow: hidden;
+    padding-top: 60px;
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    padding: 10px 30px;
+    background-color: #eaf7ff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .navbar .logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #2563eb;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #2563eb;
+  }
+  
+  .auth-links {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  
+  }
+  /* Boutons d'authentification */
+  .auth-links a {
+   padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .login {
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .signup {
+    background-color: #2563eb;
+    color: white;
+    transition: 0.3s;
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  
+  .signup:hover {
+    background-color: #1e40af;
+  }
+
+/* Conteneur principal */
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.left-section {
+    width: 50%;
+    background-color: #4bb2fc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre verticalement */
+    align-items: center; /* Centre horizontalement */
+    position: relative;
+}
+
+
+
+
+
+
+/* Centrer l'image des docteurs */
+.doctors-image {
+    width: 70%;
+    height: auto;
+    max-height: 60%;
+    display: block;
+}
+
+
+/* Partie droite */
+.right-section {
+    width: 50%;
+    height: 100%;
+    background-color: #f7fcff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background: #ffffff;
+    padding: 60px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    height: 600px;
+    text-align: center;
+}
+
+h2 {
+    color: #086df2;
+    margin-bottom: 20px;
+}
+
+/* Champs de saisie */
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4BB2FC;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+}
+
+/* Mot de passe avec icône */
+.password-wrapper {
+    position: relative;
+}
+
+.password-wrapper input {
+    width: 100%;
+    padding-right: 30px;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* Options */
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #292B84;
+}
+
+.options a {
+    color: #292B84;
+    text-decoration: none;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+/* Bouton de connexion */
+.login-btn {
+    width: 50%;
+    padding: 12px;
+    background-color: #4BB2FC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+.login-btn:hover {
+    background-color: #054bb5;
+}
+
+/* Texte d'inscription */
+.register-text {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.register-text a {
+    color: #292B84;
+    text-decoration: none;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 992px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left-section, .right-section {
+        width: 100%;
+        padding: 40px;
+        text-align: center;
+    }
+
+    .doctors-image {
+        width: 60%;
+    }
+
+    .login-box {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .auth-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .login-box {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    .doctors-image {
+        width: 80%;
+    }
+
+    .login-box {
+        width: 90%;
+    }
+}

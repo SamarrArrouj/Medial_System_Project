@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Form</title>
+    <link rel="stylesheet" href="saisie-symptomes.component.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">DiagnoTech</div>
+        <ul class="nav-links">
+            <li><a href="home">HOME</a></li>
+            <li><a href="about-us">ABOUT</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="contact">CONTACT</a></li>
+        </ul>
+      
+        <div class="auth-links">
+            <a *ngIf="!isAuthenticated" href="#" class="login">Login</a>
+            <a *ngIf="!isAuthenticated" href="register" class="signup">Sign Up</a>
+            <button 
+            *ngIf="isAuthenticated" 
+            (click)="logout()" 
+            class="logout-button"
+          >
+            Logout
+          </button>
+          <div *ngIf="isAuthenticated" class="user-profile">
+            <img src="profil.png" alt="User Profile" class="profile-img">
+            <span>{{ userFullName }}</span>
+          </div>
+        </div>
+    
+          
+    </nav>
+    <div class="container-bg">
+    <div class="container">
+        <div class="image-container">
+            <img src="nurse.png" alt="Nurse Illustration">
+        </div>
+        <form class="medical-form" (ngSubmit)="submitSymptom()" #symptomForm="ngForm">
+
+            <label>What is your age?</label>
+            <div>
+              <label><input type="radio" name="ageRange" [(ngModel)]="ageRange" value="16-20">16-20</label>
+              <label><input type="radio" name="ageRange" [(ngModel)]="ageRange" value="20-25">20-25</label>
+              <label><input type="radio" name="ageRange" [(ngModel)]="ageRange" value="25-30">25-30</label>
+              <label><input type="radio" name="ageRange" [(ngModel)]="ageRange" value="30-Above">30-Above</label>
+            </div>
+            
+            
+
+          
+            <label>What is your gender?</label>
+            <div>
+            <label><input type="radio" [(ngModel)]="newSymptom.gender" name="gender" value="Male" required> Male</label>
+            <label><input type="radio" [(ngModel)]="newSymptom.gender" name="gender" value="Female" required> Female</label>
+            </div>
+
+          
+            <label>When did the symptoms appear?</label>
+            <input type="date" [(ngModel)]="newSymptom.dateOfAppearance" name="date" required (ngModelChange)="formatDate()">
+          
+            <label>What is your occupation?</label>
+            <input type="text" [(ngModel)]="newSymptom.occupation" name="occupation" required>
+          
+            <label>Do you feel increasing stress?</label>
+            <div>
+                <label><input type="radio" [(ngModel)]="newSymptom.growing_Stress" name="stress" [value]="true"> Yes</label>
+                <label><input type="radio" [(ngModel)]="newSymptom.growing_Stress" name="stress" [value]="false"> No</label>
+            </div>
+          
+            <label>Have you changed your habits recently?</label>
+            <div>
+                <label><input type="radio" [(ngModel)]="newSymptom.changes_Habits" name="habits" [value]="1"> Yes</label>
+                <label><input type="radio" [(ngModel)]="newSymptom.changes_Habits" name="habits" [value]="0"> No</label>
+                <label><input type="radio" [(ngModel)]="newSymptom.changes_Habits" name="habits" [value]="2"> Maybe</label>
+            </div>
+          
+            <label>Have you experienced weight changes?</label>
+            <div>
+              <label><input type="radio" [(ngModel)]="newSymptom.weight_change" name="weight" [value]="true"> Yes</label>
+              <label><input type="radio" [(ngModel)]="newSymptom.weight_change" name="weight" [value]="false"> No</label>
+            </div>
+          
+            <label>Do you have mood changes?</label>
+            <div>
+              <label><input type="radio" [(ngModel)]="newSymptom.mood_change" name="mood" value="Yes"> Yes</label>
+              <label><input type="radio" [(ngModel)]="newSymptom.mood_change" name="mood" value="No"> No</label>
+              <label><input type="radio" [(ngModel)]="newSymptom.mood_change" name="mood" value="Maybe"> Maybe</label>
+            </div>
+          
+            <label>Any history of mental health issues?</label>
+            <div>
+              <label><input type="radio" [(ngModel)]="newSymptom.mental_Health_History" name="mental" [value]="true"> Yes</label>
+              <label><input type="radio" [(ngModel)]="newSymptom.mental_Health_History" name="mental" [value]="false"> No</label>
+            </div>
+          
+            <label>Have you lost interest in your work?</label>
+            <div>
+              <label><input type="radio" [(ngModel)]="newSymptom.work_Interest" name="work" value="Yes"> Yes</label>
+              <label><input type="radio" [(ngModel)]="newSymptom.work_Interest" name="work" value="No"> No</label>
+              <label><input type="radio" [(ngModel)]="newSymptom.work_Interest" name="work" value="Maybe"> Maybe</label>
+            </div>
+          
+            <label>Are you socially withdrawn?</label>
+            <div>
+              <label><input type="radio" [(ngModel)]="newSymptom.social_Weakness" name="social" value="Yes"> Yes</label>
+              <label><input type="radio" [(ngModel)]="newSymptom.social_Weakness" name="social" value="No"> No</label>
+              <label><input type="radio" [(ngModel)]="newSymptom.social_Weakness" name="social" value="Maybe"> Maybe</label>
+            </div>
+          
+            <br>
+            <button type="submit">Submit</button>
+          </form>
+          

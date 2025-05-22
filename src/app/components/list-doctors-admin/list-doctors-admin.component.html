@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="filter-bar">
+     
+      <button class="add-user"><a [routerLink]="['/dashboard/add-doctor']" routerLinkActive="active" >+ New Doctor</a></button>
+    </div>
+  
+    <table class="user-table">
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>Sexe</th>
+          <th>Email</th>
+          <th>Speciality</th>
+          <th>Photo</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let doctor of doctors">
+          <td>{{ doctor.username }}</td>
+          <td>{{ doctor.sexe }}</td>
+          <td>{{ doctor.email }}</td>
+          <td>{{ doctor.specialty }}</td>
+          <td>
+            <img *ngIf="doctor.photoUrl" [src]="'https://localhost:7076' + doctor.photoUrl" alt="Doctor Photo" class="doctor-photo">
+          </td>
+          <td>
+        
+          </td>
+          
+        </tr>
+      </tbody>
+      
+    </table>
+  </div>
+  

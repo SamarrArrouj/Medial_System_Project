@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiagnoTech Medical Center</title>
+    <link rel="stylesheet" href="home.component.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">DiagnoTech</div>
+        <ul class="nav-links">
+            <li><a href="home">HOME</a></li>
+            <li><a href="about-us">ABOUT</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="contact">CONTACT</a></li>
+        </ul>
+      
+        <div class="auth-links">
+            <a *ngIf="!isAuthenticated" href="#" class="login">Login</a>
+            <a *ngIf="!isAuthenticated" href="register" class="signup">Sign Up</a>
+            <button 
+            *ngIf="isAuthenticated" 
+            (click)="logout()" 
+            class="logout-button"
+          >
+            Logout
+          </button>
+          <div *ngIf="isAuthenticated" class="user-profile">
+            <img src="profil.png" alt="User Profile" class="profile-img">
+            <span>{{ userFullName }}</span>
+          </div>
+        </div>
+    
+          
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Get a complete diagnosis at the <span class="highlight">DiagnoTech</span> Medical Center</h1>
+            <br>
+            <p>DiagnoTech is a modern medical center that provides high-quality medical care in the shortest possible time.</p>
+            <a href="#" class="btn">Get started</a>
+        </div>
+        <img src="doctor.png" alt="Doctor" class="hero-image">
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <h2>Our services</h2>
+        <br>
+        <div class="services-container">
+            <a href="saisie-symptomes" class="service-card">
+                <img src="diagnostic.png" alt="Diagnostic System">
+                <h3>Diagnostic System</h3>
+            </a>
+    
+            <a href="chatbot.html" class="service-card">
+                <img src="chatbot.png" alt="Chatbot Communication">
+                <h3>Chatbot Communication</h3>
+            </a>
+    
+            <a href="list-doctors-appointment" class="service-card">
+                <img src="appointment.png" alt="Book an appointment">
+                <h3>Book an appointment</h3>
+            </a>
+        </div>
+    </section>
+  
+
+    
+</body>
+</html>

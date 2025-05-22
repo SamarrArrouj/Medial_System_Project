@@ -1,0 +1,92 @@
+<nav class="navbar">
+  <div class="logo">DiagnoTech</div>
+  <ul class="nav-links">
+    <li><a routerLink="/home">HOME</a></li>
+    <li><a routerLink="/about-us">ABOUT</a></li>
+    <li><a routerLink="/services">SERVICES</a></li>
+    <li><a routerLink="/faqs">FAQs</a></li>
+    <li><a routerLink="/contact">CONTACT</a></li>
+  </ul>
+
+  <div class="auth-links">
+    <a *ngIf="!isAuthenticated" routerLink="/login" class="login">Login</a>
+    <a *ngIf="!isAuthenticated" routerLink="/register" class="signup">Sign Up</a>
+    <button 
+      *ngIf="isAuthenticated" 
+      (click)="logout()" 
+      class="logout-button"
+    >
+      Logout
+    </button>  
+  </div>
+</nav>
+
+<div class="background-wrapper">
+  <img src="back1.jpg" class="bg-image" alt="background" />
+  <br><br><br><br><br><br><br><br><br><br>
+  <div class="appointment-container">
+    <!-- Infos du médecin sélectionné -->
+    <div *ngIf="selectedDoctor" class="selected-doctor-card">
+      <img
+        *ngIf="selectedDoctor.photoUrl"
+        [src]="'https://localhost:7076' + selectedDoctor.photoUrl"
+        alt="Photo du médecin"
+        class="doctor-photo"
+      />
+      <div class="doctor-info">
+        <h2>{{ selectedDoctor.username }}</h2>
+        <p><strong>Speciality :</strong> {{ selectedDoctor.specialty }}</p>
+      </div>
+    </div>
+
+    <!-- Formulaire de rendez-vous -->
+    <form (ngSubmit)="onSubmit()" class="appointment-form">
+      <h2>📅 Book an appointment</h2>
+      <br>
+    
+      <label for="appointmentDate">📅 Date of appointment</label>
+      <input
+        type="date"
+        id="appointmentDate"
+        [(ngModel)]="form.appointmentDate"
+        name="appointmentDate"
+        required
+      />
+    
+      <label>🕒 Time of appointment</label>
+<br />
+<div class="appointment-time-options">
+  <button
+    type="button"
+    *ngFor="let time of availableTimes"
+    [class.selected]="form.appointmentTime === time"
+    (click)="selectTime(time)"
+  >
+    {{ time }}
+  </button>
+</div>
+
+<input type="hidden" [(ngModel)]="form.appointmentTime" name="appointmentTime" required />
+
+      
+
+    
+      <input type="hidden" [(ngModel)]="form.patientId" name="patientId" />
+    <br><br>
+      <button type="submit">✅ Confirm</button>
+    </form>
+    
+    <div *ngIf="showConfirmation" class="confirmation-message">
+      ✅ Appointment successfully made! We will contact you soon.
+    </div>
+    <div *ngIf="errorMessage" class="error-message">
+      Slot already reserved
+    </div>
+    
+    
+    <!-- Bouton retour vers la liste des médecins -->
+    <div class="back-button-container">
+      <button (click)="goBack()" class="back-button">← Return to the list of doctors</button>
+    </div>
+  </div>
+</div>

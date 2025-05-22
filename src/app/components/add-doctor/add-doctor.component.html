@@ -1,0 +1,44 @@
+
+
+
+<!-- Overlay + Modal -->
+<div *ngIf="isModalOpen" class="backdrop">
+  <div class="modal">
+    <button class="close-button" (click)="closeModal()">✖</button>
+
+    <h2>Ajouter un médecin</h2>
+    <form (ngSubmit)="saveDoctor()" enctype="multipart/form-data">
+      <label>Username</label>
+      <input type="text" [(ngModel)]="doctor.username" name="username" required>
+      <br><br>
+
+      <label for="sexe">Sexe</label>
+      <select [(ngModel)]="doctor.Sexe" name="Sexe" required>
+        <option value="Homme">Man</option>
+        <option value="Femme">Female</option>
+      </select>
+      <br><br>
+
+      <label>Email</label>
+      <input type="email" [(ngModel)]="doctor.email" name="email" required>
+      <br><br>
+
+      <label>Password</label>
+      <input type="password" [(ngModel)]="doctor.password" name="password" required>
+      <br><br>
+
+      <label>Speciality</label>
+      <input type="text" [(ngModel)]="doctor.specialty" name="specialty" required>
+      <br><br>
+
+      <label>Photo</label>
+      <input type="file" (change)="onFileChange($event)" name="photo" required>
+      <br><br>
+
+      <button type="submit">Enregistrer</button>
+    </form>
+
+    <div *ngIf="confirmationMessage" class="success-message">{{ confirmationMessage }}</div>
+    <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+  </div>
+</div>
